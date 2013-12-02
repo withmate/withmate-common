@@ -1,0 +1,13 @@
+### IDE Ignore ###
+user/.classpath
+user/.project
+user/*.iml
+user/*.ipr
+user/*.iws
+user/settings/*
+
+
+
+
+### target folder Ignore ###
+**/target/*
