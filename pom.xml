@@ -14,4 +14,29 @@
         <module>user</module>
     </modules>
     
+    <repositories>
+		<repository>
+			<id>Narratage</id>
+			<name>Narratage Maven Repository</name>
+			<url>http://nexus.naonsoft.kr/content/groups/public</url>
+		</repository>
+	</repositories>
+    
+    <distributionManagement>
+		<repository>
+			<uniqueVersion>true</uniqueVersion>
+			<id>release</id>
+			<name>Naonsoft Releases</name>
+			<url>http://dev.narratage.com/nexus/content/repositories/releases</url>
+			<layout>default</layout>
+		</repository>
+		<snapshotRepository>
+			<uniqueVersion>true</uniqueVersion>
+			<id>snapshot</id>
+			<name>Naonsoft Snapshots</name>
+			<url>http://dev.narratage.com/nexus/content/repositories/snapshots</url>
+			<layout>default</layout>
+		</snapshotRepository>
+	</distributionManagement>
+    
 </project>
